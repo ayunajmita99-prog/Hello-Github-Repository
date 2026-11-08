@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic and Research Portfolio of Ayu Najmita">
+  <title>Ayu Najmita | Academic Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      color: #263449;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #102b4e;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    nav a:hover {
+      color: #d9b878;
+    }
+
+    .hero {
+      padding: 110px 10%;
+      background: #eaf0f7;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      color: #9a7538;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 7vw, 68px);
+      color: #102b4e;
+      line-height: 1.15;
+      margin: 18px 0;
+    }
+
+    .hero p {
+      font-size: 17px;
+      max-width: 650px;
+      color: #536176;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      background: #102b4e;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: #244b76;
+    }
+
+    section {
+      padding: 75px 10%;
+    }
+
+    .section-title {
+      font-family: Georgia, serif;
+      font-size: 32px;
+      color: #102b4e;
+      margin-bottom: 12px;
+    }
+
+    .line {
+      width: 55px;
+      height: 3px;
+      background: #b18b4c;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e3e8ef;
+      padding: 25px;
+      border-radius: 6px;
+      margin-bottom: 18px;
+    }
+
+    .card h3 {
+      color: #102b4e;
+      margin-bottom: 7px;
+    }
+
+    .date {
+      color: #9a7538;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .muted {
+      color: #64748b;
+    }
+
+    .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      background: #eaf0f7;
+      color: #102b4e;
+      padding: 7px 13px;
+      font-size: 13px;
+      border-radius: 20px;
+    }
+
+    .contact {
+      background: #102b4e;
+      color: white;
+      text-align: center;
+    }
+
+    .contact h2 {
+      color: white;
+    }
+
+    .contact a {
+      color: #e6c98d;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0b203a;
+      color: #cbd5e1;
+      font-size: 13px;
+    }
+
+    @media(max-width: 600px) {
+      header {
+        padding: 18px 6%;
+      }
+
+      nav {
+        gap: 12px;
+      }
+
+      .hero, section {
+        padding: 65px 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Ayu Najmita</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#research">Research</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">ACADEMIC & RESEARCH PORTFOLIO</div>
+    <h1>Ayu Najmita</h1>
+    <p>
+      Mathematics Graduate | Mathematics Education Researcher
+    </p>
+    <p style="margin-top:15px">
+      Exploring mathematical optimization, computational methods,
+      and the intersection of mathematics and computer science.
+    </p>
+    <a href="#about" class="button">Explore My Portfolio</a>
+  </div>
+</div>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="line"></div>
+  <p>
+    I am a mathematics graduate with an academic background in
+    pure mathematics and mathematics education. My interests
+    include mathematical modeling, optimization, computational
+    mathematics, and research-based learning.
+  </p>
+  <p style="margin-top:15px">
+    I am continuously developing my research skills and exploring
+    the application of mathematical methods to computational
+    problems and emerging areas of computer science.
+  </p>
+</section>
+
+<section id="education" style="background:#eef2f7">
+  <h2 class="section-title">Education</h2>
+  <div class="line"></div>
+
+  <div class="card">
+    <div class="date">OCTOBER 2024 – APRIL 2026</div>
+    <h3>Master's Degree in Mathematics Education</h3>
+    <p>Universitas Muhammadiyah Sumatera Utara (UMSU)</p>
+    <p class="muted">Medan, Indonesia</p>
+    <p style="margin-top:12px">
+      Thesis: Development of STEM-Based Learning Devices
+      Assisted by POM-QM Software for Linear Programming
+      to Develop Students' 21st-Century Skills.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="date">2016 – 2021</div>
+    <h3>Bachelor's Degree in Pure Mathematics</h3>
+    <p>Universitas Islam Negeri Sumatera Utara (UINSU)</p>
+    <p class="muted">Medan, Indonesia</p>
+    <p style="margin-top:12px">
+      Thesis: Optimization of Packaged Chips Product
+      Distribution Using the Transportation Method.
+    </p>
+  </div>
+</section>
+
+<section id="research">
+  <h2 class="section-title">Research & Publications</h2>
+  <div class="line"></div>
+
+  <div class="card">
+    <div class="date">MASTER'S RESEARCH</div>
+    <h3>STEM-Based Learning and Linear Programming</h3>
+    <p>
+      Development of learning materials integrating STEM,
+      linear programming, and POM-QM software using the
+      4D research and development model.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="date">UNDER REVIEW</div>
+    <h3>Development of STEM-Based Learning Devices
+      Assisted by POM-QM Software for Linear Programming:
+      A 4D Research and Development Study</h3>
+    <p class="muted">Research manuscript – under review.</p>
+  </div>
+
+  <div class="card">
+    <div class="date">RESEARCH INTEREST</div>
+    <h3>Mathematical Optimization in Post-Quantum Cryptography</h3>
+    <p>
+      Exploring mathematical optimization approaches for
+      secure and efficient parameter selection in lattice-based
+      post-quantum cryptographic systems.
+    </p>
+    <p class="muted" style="margin-top:10px">
+      Independent academic study and developing research interest.
+    </p>
+  </div>
+</section>
+
+<section id="experience" style="background:#eef2f7">
+  <h2 class="section-title">Teaching Experience</h2>
+  <div class="line"></div>
+
+  <div class="card">
+    <h3>Private Mathematics Tutor</h3>
+    <p class="muted">Current</p>
+    <p>Providing mathematics tutoring for elementary,
+      junior high, and senior high school students.</p>
+  </div>
+
+  <div class="card">
+    <h3>Mathematics Teacher – Batari School International</h3>
+    <p>Teaching mathematics to Grades 5 and 6 in English.</p>
+  </div>
+
+  <div class="card">
+    <h3>Mathematics Teacher – SD Tunas Mekar</h3>
+    <p>Elementary mathematics teaching and homeroom responsibilities.</p>
+  </div>
+
+  <div class="card">
+    <h3>Research Teaching Implementation – SMK Bina Bersaudara</h3>
+    <p>Implementing STEM-based linear programming learning
+      activities with POM-QM software for Grade XI students.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Research Interests & Skills</h2>
+  <div class="line"></div>
+  <div class="interests">
+    <span class="tag">Pure Mathematics</span>
+    <span class="tag">Mathematical Optimization</span>
+    <span class="tag">Linear Programming</span>
+    <span class="tag">STEM Education</span>
+    <span class="tag">POM-QM</span>
+    <span class="tag">Research & Development</span>
+    <span class="tag">Mathematical Modeling</span>
+    <span class="tag">Cryptography – Current Study</span>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Contact</h2>
+  <p>For academic collaboration, research discussions,
+    and PhD opportunities.</p>
+  <p style="margin-top:18px">
+    Email: <a href="mailto:YOUR_EMAIL@example.com">
+      YOUR_EMAIL@example.com
+    </a>
+  </p>
+  <p style="margin-top:8px">
+    LinkedIn: <a href="#">Add your LinkedIn profile</a>
+  </p>
+  <p style="margin-top:8px">
+    Google Scholar: <a href="#">Add your Google Scholar profile</a>
+  </p>
+</section>
+
+<footer>
+  © 2026 Ayu Najmita | Academic & Research Portfolio
+</footer>
+
+</body>
+</html>
